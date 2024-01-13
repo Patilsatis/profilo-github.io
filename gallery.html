@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFTWARE DEVELOPMENT COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="experts.html">EXPERTS</a></li>
+                <li><a href="gallery.html">GALLARY</a></li>
+                <li><a href="intern.html">INTERN</a></li>
+ 
+
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"> </i>
+       </nav>
+       <h2>GALLARY</h2> 
+    </section>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+    <!-- #############################  DEVELOPMENT GALLARY ####### ####################-->
+
+    <section class ="client">
+        <h1><u> Development</u></h1>
+        <div  class="row">
+            <div class="client-col">
+                <img src="images/dev1.jpg">
+                <div class="layer">
+                    <!-- <h3>london</h3> -->
+                </div>
+            </div>
+    
+    
+            <div class="client-col">
+                <img src="images/dep2.jpg">
+                <div class="layer">
+                    <!-- <h3>london</h3> -->
+                </div>
+            </div>
+    
+    
+            <div class="client-col">
+                <img src="images/dep3.jpg">
+                <div class="layer">
+                    <!-- <h3>london</h3> -->
+                </div>
+            </div>
+
+
+            <div class="client-col">
+                <img src="images/dep4.jpg">
+                <div class="layer">
+                    <!-- <h3>london</h3> -->
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- ################################  TRAINING ######################################## -->
+    
+    <section class ="client">
+        <h1> <u>Training</u></h1>
+        <div  class="row">
+            <div class="client-col">
+                <img src="images/trai1.jpg">
+                <div class="layer">
+                    <!-- <h3>machine</h3> -->
+                </div>
+            </div>
+        
+        
+            <div class="client-col">
+                
+                <img src="images/trai2.jpg">
+                <div class="layer">
+                    <!-- <h3>Iot</h3> -->
+                </div>
+            </div>
+        
+        
+            <div class="client-col">
+                <img src="images/trai3.jpg">
+                <div class="layer">
+                    <!-- <h3>cloud </h3> -->
+                </div>
+            </div>
+            <div class="client-col">
+                <img src="images/trai4.jpg">
+                <div class="layer">
+                    <!-- <h3>java</h3> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    
+    <!-- ################### FOOTER SECTION START ######################################################## -->
+
+<footer>
+    <div class="footercont">
+        <br>
+        <h2>VISIT US</h2>
+        <div class="socialicons">
+            <a href="https://www.facebook.com/people/Stpl-Cuttack/100041255630144/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+
+        <div class="footernav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="experts.html">EXPERTS</a></li>
+                <li><a href="gallery.html">GALLARY</a></li>
+                <li><a href="intern.html">INTERN</a></li>
+                <li><a href="contactus.html">CONTACTUS</a></li>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            <h4>copyright &copy;2022.Designed By  <span class ="designer">sysora Technologies </span></h4>
+        </div>
+    </div>  
+</footer>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!----------####################  Java Script #################################################--------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+    navLinks.style.right="-200px";
+    }
+    </script>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+</body>
+</html>
